@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: url("../images/tlou banner.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-color:rgba(47, 79, 79, 0.474);
+    border-top: 0.3em solid black;
+    border-bottom: 0.3em solid black;
+    text-align: center;
+    margin-top: 3em;
+    padding: 2em 0;
+}
+
+section{
+    margin: 0.6em;
+    padding: 0.6em;
+    border: 0.2em solid black;
+    background-color: lightblue;
+}
+
+/*img{
+    width: 100%;
+ } */
+
+p{
+    margin: 0.6em 0;
+}
+
+/* index.html of te wel homepage css*/
+
+nav ul li{
+    list-style-type: none;
+    transition: 1s;
+}
+header nav li{
+    text-align: center;
+    padding: .5em;
+}
+nav ul li:hover{
+    transform: scale(1.25);
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 1.25em;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: darkslategrey;
+    border-radius: 1.25em;
+    padding: 0.5em;
+}
+
+.index section{
+    background-color: rgba(46, 139, 86, 0.554);
+}
+
+.index img{
+    width: 100%;
+    max-width: 65%;
+    margin: 1.25em;
+}
+
+.index h1{
+    margin: 0 .7em;
+    margin-top: .3em;
+}
+
+/* tweede pagina characters css*/
+
+.characters section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.characters section h2{
+flex: 0 0 100%;
+}
+
+.characters section article{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 30em;
+    justify-content: space-between;
+}
+
+.characters section article img{
+    width: 100%;
+}
+
+.characters section:last-of-type article{
+    flex: 1 1 20em ;
+}
+
+.characters img{
+    width: 100%;
+}
+
+/* leren flex-wrap en flex property toe te passen door Jeffrey, 
+hulp gekregen met de lay-out indelen qua foto's en tekst!*/
+
+
+/* Derde pagina the last of us part 1 css*/
+
+.tlou1 h1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.tlou1 section:first-of-type{
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.tlou1 section:first-of-type h1{
+    position: absolute;
+    left: -999999999em;
+}
+
+.tlou1 section:first-of-type img{
+    flex: 1 1 25em;
+}
+
+.tlou1 section:first-of-type p{
+    flex: 1 1 16em;
+    padding: 1em;
+}
+
+.tlou1 section{
+    background-color: rgba(139, 93, 47, 0.665);
+}
+
+.tlou1 img{
+    width: 100%;
+}
+
+.tlou1 section:last-of-type img{
+    max-width: 45%;
+}
+
+/* CSS van vierde pagina:  The last of us part 2*/
+
+.tlou2 section{
+    background-color: rgba(139, 93, 47, 0.665);
+}
+
+.tlou2 img{
+    width: 80%;
+}
+
+.tlou2 section img{
+    max-width: 60%;
+}
+
+
+.tlou2 section:last-of-type img{
+    max-width: 60%;
+}
+
