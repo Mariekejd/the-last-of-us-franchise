@@ -1,1 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+header{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: url("../images/tlou banner.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: darkslategrey;
+    border-radius: 1.25em;
+    padding: 0.6em 1.25em;
+}
+header nav p{
+    text-align: center;
+}
+nav ul li:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    padding: 1.25em;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer{
+    background-color:rgba(47, 79, 79, 0.474);
+}
+
+section, div{
+    margin: 0.6em;
+    padding: 0.6em;
+    border: 0.2em solid black;
+    background-color: lightblue;
+}
+
+
+/*.tlou1 > h2:first-child, .tlou2 > h2:first-child, .characters > h2:first-child{
+    margin: 0.3em;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+} */
+
+.tlou1 > section:first-of-type{
+    max-width: 30%;
+}
+
+img{
+    display: flex;
+    width: 50%;
+}
