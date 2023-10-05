@@ -180,3 +180,6 @@ hulp gekregen met de lay-out indelen qua foto's en tekst!*/
     max-width: 60%;
 }
 
+video {
+    width: 100%;
+}
