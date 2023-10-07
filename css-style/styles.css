@@ -44,9 +44,9 @@ nav ul li{
     transition: 1s;
 }
 header nav li{
-    text-align: center;
-    padding: .5em;
+    padding: 1em;
 }
+
 nav ul li:hover{
     transform: scale(1.25);
 }
@@ -71,29 +71,33 @@ nav a{
     background-color: rgba(46, 139, 86, 0.554);
 }
 
-
 .index h1{
-    margin: 0 .7em;
-    margin-top: .3em;
+    margin: 0.3em;
 }
 
 .index section:first-of-type img{
-   margin: auto;
-   width: 100%;
+    margin: 0.2em 0;
+    max-width: 50%;
+    padding: 0 .2em;
 }
+
+.index div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .index section:last-of-type img{
    margin: 0.2em 0;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .index section{
     display: flex;
     flex-direction: column;
-    flex: 1 0 30em;
     justify-content: space-between;
 }
+
 
 /* tweede pagina characters css*/
 
@@ -104,7 +108,7 @@ nav a{
 }
 
 .characters section h2{
-flex: 0 0 100%;
+    flex: 0 0 100%;
 }
 
 .characters section article{
@@ -167,7 +171,13 @@ hulp gekregen met de lay-out indelen qua foto's en tekst!*/
 }
 
 .tlou1 section:last-of-type img{
-    max-width: 45%;
+    max-width: 50%;
+    padding: 0 .2em;
+}
+
+.tlou1 div{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* CSS van vierde pagina:  The last of us part 2*/
@@ -196,7 +206,8 @@ video {
 
 figcaption{
     width: fit-content;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(139, 93, 47, 0.446);
     font-weight: bold;
     margin-bottom: 2em;
+    font-family: 'Times New Roman', Times, serif;
 }
