@@ -81,15 +81,17 @@ nav a{
     padding: 0 .2em;
 }
 
+.index img{
+    max-width: 100%;
+}
+
 .index div{
     display: flex;
     flex-wrap: wrap;
 }
 
-
 .index section:last-of-type img{
    margin: 0.2em 0;
-    width: 100%; 
 }
 
 .index section{
@@ -153,6 +155,9 @@ hulp gekregen met de lay-out indelen qua foto's en tekst!*/
     left: -999999999em;
 }
 
+/* Ben er niet aan toegkomen om dit volgens de A11y 
+website te doen en om dit vervolgens te snappen */
+
 .tlou1 section:first-of-type img{
     flex: 1 1 25em;
 }
@@ -186,19 +191,10 @@ hulp gekregen met de lay-out indelen qua foto's en tekst!*/
     background-color: rgba(139, 93, 47, 0.665);
 }
 
-.tlou2 img{
-    width: 80%;
-}
 
 .tlou2 section img{
-    max-width: 60%;
+    max-width: 100%;
 }
-
-
-.tlou2 section:last-of-type img{
-    max-width: 60%;
-}
-
 
 video {
     width: 100%;
@@ -208,6 +204,15 @@ figcaption{
     width: fit-content;
     background-color: rgba(139, 93, 47, 0.446);
     font-weight: bold;
-    margin-bottom: 2em;
+    margin-bottom: .2em;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.tlou2 div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tlou2 div img{
+    padding: 0 .4em;
 }
