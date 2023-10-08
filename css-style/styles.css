@@ -116,7 +116,7 @@ nav a{
 .characters section article{
     display: flex;
     flex-direction: column;
-    flex: 1 0 30em;
+    flex: 1 1 30em;
     justify-content: space-between;
 }
 
