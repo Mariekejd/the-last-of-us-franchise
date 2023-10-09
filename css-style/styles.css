@@ -37,6 +37,7 @@ p{
     margin: 0.6em 0;
 }
 
+
 /* index.html of te wel homepage css*/
 
 nav ul li{
@@ -69,6 +70,8 @@ nav a{
 
 .index section{
     background-color: rgba(46, 139, 86, 0.554);
+    display: flex;
+    flex-direction: column;
 }
 
 .index h1{
@@ -76,7 +79,6 @@ nav a{
 }
 
 .index section:first-of-type img{
-    margin: 0.2em 0;
     max-width: 50%;
     padding: 0 .2em;
 }
@@ -86,20 +88,12 @@ nav a{
 }
 
 .index div{
-    display: flex;
-    flex-wrap: wrap;
+    display:flex ;
 }
 
 .index section:last-of-type img{
    margin: 0.2em 0;
 }
-
-.index section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 
 /* tweede pagina characters css*/
 
@@ -156,7 +150,8 @@ hulp gekregen met de lay-out indelen qua foto's en tekst!*/
 }
 
 /* Ben er niet aan toegkomen om dit volgens de A11y 
-website te doen en om dit vervolgens te snappen */
+website te doen en om dit vervolgens te snappen, dus de h1 van de derde pagina heb
+ik zo op deze manier op zij laten schuiven. */
 
 .tlou1 section:first-of-type img{
     flex: 1 1 25em;
@@ -176,7 +171,7 @@ website te doen en om dit vervolgens te snappen */
 }
 
 .tlou1 section:last-of-type img{
-    max-width: 50%;
+    width: 50%;
     padding: 0 .2em;
 }
 
@@ -191,7 +186,6 @@ website te doen en om dit vervolgens te snappen */
     background-color: rgba(139, 93, 47, 0.665);
 }
 
-
 .tlou2 section img{
     max-width: 100%;
 }
@@ -200,12 +194,11 @@ video {
     width: 100%;
 }
 
-figcaption{
-    width: fit-content;
-    background-color: rgba(139, 93, 47, 0.446);
-    font-weight: bold;
-    margin-bottom: .2em;
-    font-family: 'Times New Roman', Times, serif;
+.tlou2 figcaption{
+    font-style: italic;
+    margin: .2em 0;
+    background-color: antiquewhite;
+    border-radius: 0.2em;
 }
 
 .tlou2 div{
